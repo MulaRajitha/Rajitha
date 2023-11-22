@@ -1,0 +1,55 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+
+	<bean id="Add" class="com.cg.Springcore.Address">
+
+		<property name="street" value="sai"></property>
+
+		<property name="city" value="sao"></property>
+
+
+
+		<property name="state" value="sar"></property>
+
+
+
+		<property name="zip" value="123"></property>
+
+
+
+		<property name="country" value="India"></property>
+
+
+
+	</bean>
+
+
+	<bean id="cus" class="com.cg.Springcore.Customer">
+
+
+
+		<property name="id" value="40012"></property>
+
+
+
+		<property name="name" value="pavith"></property>
+
+
+
+		<property name="address" value="pravali"></property>
+
+
+
+		<property name="contact" value="40022"></property>
+
+
+	</bean>
+
+</beans>

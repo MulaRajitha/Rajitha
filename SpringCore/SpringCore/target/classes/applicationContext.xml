@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<context:annotation-config/>
+	<bean id="employee" class="com.addres.springcore.Employee">
+		<property name="employeeId" value="102883"></property>
+		<property name="employeeName" value="Pravalika Reddy"></property>
+		<property name="salary" value="80000"></property>
+	</bean>
+
+	<bean id="address1" class="com.addres.springcore.Address">
+		<property name="addressLine1" value="mettur dam"></property>
+		<property name="addressLine2" value="TamilNadu"></property>
+		<property name="city" value="Chennai"></property>
+		<property name="zipCode" value="530021"></property>
+	</bean>
+	
+	<bean id="address2" class="com.addres.springcore.Address">
+		<property name="addressLine1" value="madhurwada"></property>
+		<property name="addressLine2" value="vizag"></property>
+		<property name="city" value="Andhra Pradesh"></property>
+		<property name="zipCode" value="530048"></property>
+	</bean>
+	
+</beans>

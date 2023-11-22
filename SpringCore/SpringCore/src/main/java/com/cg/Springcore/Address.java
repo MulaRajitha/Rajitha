@@ -1,0 +1,87 @@
+package com.cg.Springcore;
+
+public class Address {private String street;
+
+private String city;
+
+private String state;
+
+private int zip;
+
+private String country;
+
+public String getStreet() {
+
+	return street;
+
+}
+
+public void setstreet(String street) {
+
+	this.street = street;
+
+}
+
+public String getCity() {
+
+	return city;
+
+}
+
+public void setcity(String city) {
+
+	this.city = city;
+
+}
+
+public String getState() {
+
+	return state;
+
+}
+
+public void setState(String state) {
+
+	this.state = state;
+
+}
+
+public int getzip() {
+
+	return zip;
+
+}
+
+public void setzip(int zip) {
+
+	this.zip = zip;
+
+}
+
+public String getCountry() {
+
+	return country;
+
+}
+
+public void setCountry(String country) {
+
+	this.country = country;
+
+}
+
+@Override
+
+public String toString() {
+
+	return "Address [street=" + street + ",city=" + city + ",state=" + state + ",zip=" + zip + "country=" + country
+			+ "]";
+
+}
+
+}
+
+
+
+
+
